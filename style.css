@@ -1,0 +1,162 @@
+.start {
+  margin: auto;
+  text-align: center;
+  border: solid;
+  border-color: black coral;
+  padding: 10px;
+  border-radius: 600px;
+  border-width: 5px 20px;
+}
+.head1 {
+  color: white;
+}
+
+.do {
+  margin: auto;
+  text-align: center;
+  border: solid;
+  border-color: black white;
+  padding: 10px;
+  border-width: 8px 20px;
+}
+
+.img1 {
+  border: solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 1005px;
+  height: 410px;
+}
+
+body {
+  background-image: url("images/backround.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.row {
+  display: flex;
+  grid-template-rows: max-content;
+}
+
+.column {
+  flex: 40%;
+  flex-grow: inherit;
+  padding: 5px;
+  width: 300px;
+  height: 350px;
+}
+
+.border {
+  margin: inherit;
+  border-style: solid;
+  color: black;
+  font-size: 20px;
+  border-color: white coral;
+  text-align: center;
+  font-family: monospace;
+  border-width: 4vmin 8px;
+}
+
+.border2 {
+  margin: inherit;
+  border-style: solid;
+  color: black;
+  font-size: 20px;
+  border-color: brown coral;
+  text-align: center;
+  font-family: monospace;
+  border-width: 4vmin 8px;
+}
+
+.border3 {
+  margin: inherit;
+  border-style: solid;
+  color: black;
+  font-size: 20px;
+  border-color: rgb(95, 83, 83) coral;
+  text-align: center;
+  font-family: monospace;
+  border-width: 4vmin 8px;
+}
+.link {
+  color: black;
+  display: block;
+  width: 50%;
+  font-size: 20px;
+}
+.link:hover {
+  color: coral;
+  display: block;
+  width: 50%;
+  font-size: 20px;
+}
+
+.intro {
+  margin: 5px;
+  color: white;
+  font-size: 20px;
+  border: double;
+  border-width: 10px;
+  border-color: black;
+  background-color: coral;
+  background-image: center;
+  height: 220px;
+}
+
+.goalborder {
+  margin-top: 7px;
+  border: dotted;
+  border-color: black;
+  border-width: 5px;
+  height: 300px;
+  background-image: url(images/givingheart.png);
+}
+
+.linkborder {
+  margin-top: 7px;
+  border: solid;
+  box-shadow: 5px 10px grey;
+  border-color: black;
+  border-width: 5px;
+  background-image: url(images/givingheart2.jpg);
+}
+
+ul.a {
+  list-style-image: url(images/smiley.png);
+}
+
+.column1 {
+  flex-direction: column;
+  flex-grow: inherit;
+  padding: 5px;
+  width: 400px;
+}
+.column2 {
+  flex: 75.3%;
+  flex-grow: inherit;
+  padding: 5px;
+}
+
+.goal {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aboutp {
+  font-size: 20px;
+}
+
+.aboutp1 {
+  margin-top: 2px;
+  font-size: 20px;
+}
+
+.aboutcolumn {
+  flex: 50%;
+  flex-grow: inherit;
+  padding: 5px;
+  width: 300px;
+  height: 200px;
+}
